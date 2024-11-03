@@ -116,3 +116,26 @@ button{
     width: 150px;
     height: 140px;
 }
+
+.section-3{
+    background-color: #E5E7EB;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: 100px auto 100px;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+}
+
+.author{
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 18px;
+}
+
