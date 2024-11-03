@@ -71,12 +71,19 @@ a{
     margin-bottom: 10px;
 }
 
-button{
+.button1, .button2{
     background-color: #3882F6;
     color: white;
-    padding: 4px 12px;
-    border-radius: 4px;
+    padding: 4px 20px;
+    border-radius: 8px;
+}
+
+.button1{
     border: none;
+}
+
+.button2{
+    border: 1px solid white;
 }
 
 .section-2{
@@ -139,3 +146,37 @@ button{
     font-size: 18px;
 }
 
+.section-4{
+    margin: 100px 0px 100px;
+}
+
+.bsquare{
+    background-color: #3882F6;
+    width: 1100px;
+    height: 120px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 325px;
+    margin: auto;
+    color: #E5E7EB;
+}
+
+.bsquare-title{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.bsquare-text{
+    font-size: 14px;
+}
+
+.footer{
+    height: 72px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+}
